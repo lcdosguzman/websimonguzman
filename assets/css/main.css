@@ -297,6 +297,8 @@ a.back-to-top:hover, a.back-to-top:focus {
   box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
   border-radius: 1000px;
   max-width: 75%;
+}#about .photo {
+  text-align: center;
 }
 
 .profile-wrapper {
@@ -847,7 +849,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   height: 100%;
   left: 0;
   top: 0;
-  background: rgba(0, 180, 217, 0.6);
+  background: rgba(30, 137, 236, 0.6);
   opacity: 0;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
@@ -895,6 +897,25 @@ a.back-to-top:hover, a.back-to-top:focus {
   margin-left: 10px;
   top: 50%;
   color: #fff;
+}
+
+.overlay .text{
+  font-size: 12px;
+  width: 100%;
+  color: #ffffff;
+  padding-left: 10px;
+  text-align: left;
+  position: absolute;
+  top: 60%;
+  background: rgba(30, 137, 236, 0.9);
+}
+
+.overlay .text a{
+  font-weight: bold;
+  text-decoration:underline;
+}
+.overlay .text a:visited{
+  color: #ffffff;
 }
 
 .shot-item:hover .overlay {
