@@ -300,6 +300,32 @@ a.back-to-top:hover, a.back-to-top:focus {
 }#about .photo {
   text-align: center;
 }
+#webdevelopment .img-thumb img {
+  max-width: 90%;
+}#webdevelopment .photo {
+  text-align: center;
+}
+
+.wordpress {
+  background: #F0F0F0;
+}
+#wordpress .img-thumb img {
+  max-width: 90%;
+}#wordpress .photo {
+  text-align: center;
+}
+.list-services{
+  margin-top: 20px;
+}
+.list-services li{
+  list-style: circle;
+}
+
+#tutor .img-thumb img {
+  max-width: 90%;
+}#tutor .photo {
+  text-align: center;
+}
 
 .profile-wrapper {
   padding: 45px 0;
@@ -911,6 +937,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .overlay .text a{
+  color: #ffffff;
   font-weight: bold;
   text-decoration:underline;
 }
