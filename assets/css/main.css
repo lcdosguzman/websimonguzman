@@ -232,7 +232,7 @@ button:focus {
 .social-icon li .google:hover {
   background: #CE332A;
 }
-.social-icon li github:hover {
+.social-icon li .github:hover {
   background: #000000;
 }
 
