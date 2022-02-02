@@ -984,7 +984,16 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   -webkit-transition: all 0.3s ease-in-out 0s;
   -o-transition: all 0.3s ease-in-out 0s;
 }
-
+.tags-badge {
+  color: #ffffff;
+font-size: 30px;
+line-height: 50px;
+margin-bottom: 12px;
+margin-right: 10px
+}
+.tags-badge:hover {
+  
+}
 .services-item .icon i {
   font-size: 42px;
   margin-bottom: 15px;
