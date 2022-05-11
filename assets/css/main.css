@@ -306,6 +306,10 @@ a.back-to-top:hover, a.back-to-top:focus {
   text-align: center;
 }
 
+#about p {
+  margin-bottom: 10px;
+}
+
 .wordpress {
   background: #F0F0F0;
 }
@@ -339,7 +343,7 @@ ul.list-services li span.fa {
 }
 
 .profile-wrapper {
-  padding: 45px 0;
+  padding: 10px 0;
 }
 
 .profile-wrapper .btn {
