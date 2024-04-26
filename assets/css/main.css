@@ -1207,3 +1207,9 @@ margin-right: 18px;
 #copyright p a:hover {
   color: #1E89EC;
 }
+
+.logo-fijo {
+  height: 60px; /* Ajusta el valor para controlar la altura de todas las imágenes */
+  width: auto; /* Mantiene la proporción de la imagen */
+  object-fit: contain; /* Asegura que la imagen se ajuste dentro del espacio */
+}
